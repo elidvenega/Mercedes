@@ -1,4 +1,10 @@
-* {
+:root {
+
+}
+
+*,
+::before,
+::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -68,7 +74,7 @@ body {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 58rem;
   padding-left: 1rem;
   padding-right: 1rem;
   margin: auto;
@@ -186,15 +192,3 @@ footer {
   background-color: #434343;
 }
 
-@media (max-width: 960px) {
-  .container {
-    padding-right: 3rem;
-    padding-left: 3rem;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .mercedes {
-    width: 100%;
-  }
-}
