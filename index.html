@@ -21,37 +21,21 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
-      <div class="container">
-        <h5 class="text-white"><a class="nav-link text-white" href="#top">Mercedes</a></h5>
-        <button
-          class="navbar-toggler bg-dark"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse d-flex justify-content-end" id="navmenu">
-          <ul class="navbar-nav ">
-            <li class="nav-item">
-              <a
-                class="nav-link active text-white"
-                aria-current="page"
-                href="#"
-                >HOME</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#about">ABOUT</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+    <!-- Image and text -->
+    <nav class="navbar navbar-light bg-dark">
+      <a class="navbar-brand" href="#">
+        <img
+          src="/docs/4.0/assets/brand/bootstrap-solid.svg"
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt=""
+        />
+        Bootstrap
+      </a>
     </nav>
 
-    <header class="v-header container">
+    <header class="v-header video-container">
       <div class="fullscreen-video-wrap">
         <video src="Car.mp4" autoplay="true" loop="true" muted="muted"></video>
       </div>
@@ -79,7 +63,6 @@
         </div>
       </div>
     </section>
-
 
     <!-- Mercedes Car Images -->
     <div class="container-fluid">
@@ -175,12 +158,12 @@
     <section class="section section-b">
       <div class="mercedes-history-container">
         <h1 id="history">History</h1>
-        <img
+        <!-- <img
           src="images/mer7.jpg"
-          class="img-responsive margin pic"
+          class="img-responsive margin"
           style="width: 550px"
           alt="Image"
-        />
+        /> -->
         <p>
           Mercedes-Benz traces its origins to Karl Benz's creation of the first
           petrol-powered car, the Benz Patent Motorwagen, financed by Bertha
@@ -191,16 +174,13 @@
           Corporation) Emil Jellinek, an Austrian automobile entrepreneur who
           worked with DMG create.
         </p>
-        <br />
-        <img
+        <!-- <img
           src="images/mer8.jpg"
-          class="img-responsive margin pi"
+          class="img-responsive margin"
           style="width: 550px"
           alt="Image"
-        />
-        <br />
-        <br />
-        <br />
+        /> -->
+
         <p class="space">
           On 28 June 1926, Mercedes-Benz was formed with the merger of Karl Benz
           and Gottlieb Daimler's two companies. Gottlieb Daimler was born on 17
@@ -213,7 +193,7 @@
           Throughout the 1930s, Mercedes-Benz produced the 770 model, a car that
           was popular during Germany's Nazi period.
         </p>
-      
+
         <p>
           Adolf Hitler was known to have driven these cars during his time in
           power, with bulletproof windshields. Most of the surviving models have
@@ -228,10 +208,6 @@
           brands in the world.
         </p>
       </div>
-    </section>
-
-    <section>
-      <div class="mercedes"></div>
     </section>
 
     <footer id="social">
