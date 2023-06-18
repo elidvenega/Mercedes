@@ -7,44 +7,38 @@
 }
 
 body {
+  background-color: #4b5563;
+  color: #fff;
   font-size: 1rem;
-  font-weight: normal;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 400;
   line-height: 1.5;
-  color: #333;
   overflow-x: hidden;
 }
 
 .navbar-custom-css {
-  display: flex;
-  justify-content: space-between;
-  background-color: #434343;
+  background-color: #334155;
   z-index: 2;
 }
-
 
 .v-header {
   min-height: 100vh;
   display: flex;
+  justify-content: center;
   align-items: center;
   color: #fff;
-} 
+}
 
- .video-container {
-  max-width: 58rem;
+.video-container {
+  max-width: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
   margin: auto;
   text-align: center;
 }
 
-.mercedes-history-container {
-  max-width: 58rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin: auto;
-}
-
- .fullscreen-video-wrap {
+.fullscreen-video-wrap {
   position: absolute;
   top: 5;
   left: 0;
@@ -56,14 +50,15 @@ body {
 .fullscreen-video-wrap video {
   min-height: 100%;
   min-width: 100%;
-} 
+}
 
 .header-overlay {
-  height: 100vh;
+  min-height: 100%;
+  opacity: 0.9;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   z-index: 1;
 }
 
@@ -72,57 +67,56 @@ body {
 }
 
 .header-content h1 {
-  font-size: 60px;
+  font-size: 3.7rem;
   margin-bottom: 0;
+}
+
+.header-content p {
+  font-size: 1.7rem;
+  display: block;
+  padding-bottom: 2rem;
+}
+
+.mercedes-history-container {
+  max-width: 58rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
 }
 
 h2 {
   text-align: center;
 }
 
-.header-content p {
-  font-size: 30px;
-  display: block;
-  padding-bottom: 2rem;
-}
-
 .section {
-  padding: 20px 0;
+  padding: 1.3rem 0;
 }
 
 .car {
-  padding: 10px;
+  padding: 0.8rem;
 }
 
 .section-b {
   background: #434343;
   color: #fff;
-  padding: 20px;
-  margin-top: 45px;
-  font-size: 17px;
-  font-family: Arial, monospace;
+  padding: 1.2rem;
+  margin-top: 3rem;
 }
 
 
-
-.space {
-  padding-top: 30px;
-}
 
 .description {
-  font-size: 12px;
+  font-size: 0.8rem;
 }
-
 
 .icons {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   font-size: 3.5rem;
   flex-wrap: wrap;
   gap: 3.5rem;
 }
 
 footer {
-  background-color: #434343;
+  background-color: #334155;
 }
-
