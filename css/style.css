@@ -1,6 +1,6 @@
 *,
-::before,
-::after {
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -67,12 +67,12 @@ body {
 }
 
 .header-content h1 {
-  font-size: 3.7rem;
+  font-size: 3.5rem;
   margin-bottom: 0;
 }
 
 .header-content p {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   display: block;
   padding-bottom: 2rem;
 }
@@ -82,10 +82,6 @@ body {
   padding-left: 1rem;
   padding-right: 1rem;
   margin: auto;
-}
-
-h2 {
-  text-align: center;
 }
 
 .section {
